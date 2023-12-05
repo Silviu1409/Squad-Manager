@@ -1,0 +1,1 @@
+# Acesta este un folder ce contine documente.
