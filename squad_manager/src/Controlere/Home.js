@@ -1,5 +1,3 @@
-// Home.js
-
 import React, { useState } from "react";
 import './Home.css';
 
@@ -9,10 +7,10 @@ function Home() {
     <div>
 
       <svg viewBox="0 0 1320 300">
-        <text x="50%" y="30%" dy=".35em" textAnchor="middle">
+        <text x="50%" y="25%" dy=".35em" textAnchor="middle">
           SQUAD 
         </text>
-        <text x="50%" y="80%" dy=".35em" textAnchor="middle">
+        <text x="50%" y="65%" dy=".35em" textAnchor="middle">
           MANAGER
         </text>
       </svg>
