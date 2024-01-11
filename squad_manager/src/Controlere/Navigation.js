@@ -78,6 +78,48 @@ function Navigation() {
                         </NavLink>
                       </li>
                 }
+
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/tostadion">
+                    Stadioane
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/tomeci">
+                    Meciuri
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/tojucator">
+                    Jucatori
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/tostaff">
+                    Staff
+                  </NavLink>
+                </li>
+
+                {
+                  rol_user !== "admin"
+                    ?
+                      <></>
+                    : 
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="/tocontract">
+                          Contracte
+                        </NavLink>
+                      </li>
+                }
+
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/tostatistics">
+                    Statistici
+                  </NavLink>
+                </li>
                 
               </ul>
             </div>

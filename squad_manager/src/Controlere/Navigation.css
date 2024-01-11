@@ -1,26 +1,8 @@
-.navigation {
+.navigation{
     margin: -1.4%;
-  }
-  
-  .navbar {
     background-color: #272643;
-  }
-  
-  .navbar-dark .navbar-toggler-icon {
-    background-color: #EEEEEE;
-  }
-  
-  .nav-link {
-    color: #EEEEEE !important; /* Add !important to ensure the color is applied */
-  }
-  
-  /* Adjust the padding for the navbar links */
-  .navbar-nav .nav-link {
-    padding: 0.5rem 1rem;
-  }
-  
-  /* Customize the color of the active link */
-  .navbar-nav .nav-link.active {
-    color: #17a2b8 !important; /* Adjust the color as needed */
-  }
-  
+}
+
+.nav-link{
+    color: #EEEEEE;
+}
