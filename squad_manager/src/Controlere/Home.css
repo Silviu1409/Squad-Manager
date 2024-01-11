@@ -1,3 +1,5 @@
+/* Home.css */
+
 svg {
   font-family: 'Russo One', sans-serif;
   position: relative; 
@@ -79,4 +81,31 @@ ol li::marker{
 .divStatsExtra > div > ol > li > h1{
   color: #272643;
   font-family: "Monaco", monospace;
+}
+
+/* Add a media query for smaller screens */
+@media only screen and (max-width: 1050px) {
+  .divHome {
+    flex-direction: column;
+  }
+
+  .divHome > div {
+    width: 100%;
+    margin-bottom: 5%; 
+  }
+
+  .divHome > div:nth-child(2) {
+    width: 100%;
+    height: auto;
+  }
+
+  .divStats,
+  .divStatsExtra {
+    margin: 7% 2% 4% 2%;
+  }
+
+  .divStats > div,
+  .divStatsExtra > div {
+    width: 100%;
+  }
 }

@@ -85,7 +85,7 @@ function Auth(){
                                         <div className = "text">
                                             <div display="flex">
                                                 <h3>Logat ca: Gigi Becali</h3>
-                                                <img src="https://i.ytimg.com/vi/ibg1Bz5ykFY/mqdefault.jpg" alt="imagine gigi" width="300" height="150"/>
+                                                <img src="https://i.ytimg.com/vi/ibg1Bz5ykFY/mqdefault.jpg" alt="imagine gigi" width="70%" height="auto"/>
                                             </div>
                                             <p></p>
                                             <h3>Rol: STĂPÂN</h3>
